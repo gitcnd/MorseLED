@@ -37,7 +37,9 @@ This uses 1 byte of RAM, 300 bytes (<1%) of flash storage, and temporarily uses 
 1. Open a terminal (commandline, bash shell, whatever)
 2. Change into your Arduino folder
 ```bash
-   cd ~/Arduino/libraries
+   cd /Applications/Arduino.app/Contents/Java/libraries/
+   (or)
+   cd ~/Arduino/libraries/
 ```
 3. grab and install this code
 ```bash
