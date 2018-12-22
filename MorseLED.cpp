@@ -79,7 +79,7 @@ void MorseLED::dash()
 
 void MorseLED::say(char *msg)
 {
-  for(int i=0;i<strlen(msg);i++) {
+  for(unsigned int i=0;i<strlen(msg);i++) {
     byte c=msg[i] & 0b11011111; // a => A
 
     // Convert ASCII into an index into MorseTable
@@ -102,7 +102,7 @@ void MorseLED::say(char *msg)
 
 void MorseLED::say(const __FlashStringHelper* msg) {
   byte c[2];c[1]=0; const char *s=(const char*)msg;
-  while(c[0]=pgm_read_byte_near(s++)) say(c);
+  while(c[0]=pgm_read_byte_near(s++)) say((char*)c);
 } // say from PROGMEM
 
 
