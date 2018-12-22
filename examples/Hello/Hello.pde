@@ -16,7 +16,7 @@ void setup() {
 void loop()
 {
   morse.say("Hello 123");
-  morse.say(F(" SOS");
+  morse.say(F(" SOS"));
   delay(3000);
 }
 
