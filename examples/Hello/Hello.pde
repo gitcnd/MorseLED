@@ -1,3 +1,8 @@
+/*
+  Hello.pde v1.0 - example use of MoreLED
+  (C) Copyright 2018 (GNU GENERAL PUBLIC LICENSE, Version 3) - Chris Drake <cdrake@cpan.org>
+*/
+
 #include <MorseLED.h>
 
 MorseLED morse(13);
