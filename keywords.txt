@@ -15,7 +15,12 @@ MorseLED	KEYWORD1
 dash	KEYWORD2
 dot	KEYWORD2
 say	KEYWORD2
+asay	KEYWORD2
+tsay	KEYWORD2
+delayled	KEYWORD2
 die	KEYWORD2
+
+timer1Hook	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
